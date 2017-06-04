@@ -1,0 +1,141 @@
+/* 
+    Created on : Feb 19, 2017, 10:41:46 AM
+    Author     : Olagoke Adedamola Farouq
+*/
+
+
+*{
+    font-family:segoe UI;
+}
+.anim{
+    -o-transition: .6s;
+    -webkit-transition: .6s;
+    -moz-transition: .6s;
+    transition: .6s;
+}
+body{ 
+    margin: 0 0 0 0; 
+    padding: 0 0 0 0;
+    background: #f8f8f8 url(../images/pattern.jpg) left top repeat fixed;
+    overflow-x: hidden;
+}
+header{
+    height: 460px;
+    margin-bottom: 5%;
+}
+.navbar-custom {
+    background-color: #272727;
+    box-shadow: 0px 2px 1px 1px #2E2E2E, 0px 2px 1px 1px #75A4CE;
+    padding: 1% 4% 0 4%;
+}
+.navbar-custom .icon-bar{
+    border: 2px solid #f1f1f1;
+}
+.navbar-custom .navbar-brand{
+    font-size: 22px;
+    font-weight: bold;
+}
+.navbar-custom .navbar-brand, .navbar-custom .navbar-nav a{
+    color: #f1f1f1;
+}
+.navbar-custom .navbar-brand:hover{
+    color: white;
+}
+.navbar-custom .navbar-nav a:hover{
+    background-color: rgba(255,255,255,0.1);
+    border-bottom: 3px solid #3C8DBC;
+}
+.navbar-custom .navbar-nav a.active{
+    border-bottom: 3px solid #3C8DBC;
+}
+.navbar-custom .navbar-nav .dropdown-menu a{
+    color: #444;
+}
+.navbar-custom .navbar-nav .dropdown-menu a:hover{
+    color: black;
+    border: none;
+}
+
+
+header #banner{
+    margin-top: 4.8%;
+    height: border-box;
+    background: black  url(../images/urban_night.jpeg) no-repeat fixed 0 -260px;
+}
+#banner #banner_overlay{
+    background-color: rgba(0,0,0,0.7);
+    height: 150px;
+    width:  border-box;
+}
+#banner_overlay #intro_text{
+    color: white;
+    padding: 4% 16% 2% 7%;
+}
+#banner_overlay h1{
+    padding-bottom: 2px;
+    border-bottom: 1px solid #ccc;
+}
+
+main{
+    margin-top: -28%;
+}
+
+#about-article{
+    background-color: white;
+    padding: 4% 7% 2% 7%;
+}
+.alignleft{
+    display: inline;
+    float: left;
+    margin-right: 1.5em;
+}
+#about-article p{
+    font-size: 18px;
+    color: #444;
+    text-justify: inter-word;
+}
+
+footer{
+    padding: 2% 1% 1% 5%;
+}
+footer a{
+    color: #f1f1f1;
+    font-size: 15px;
+    padding: 4px;
+}
+footer a:hover{
+    color: white;
+    text-decoration: none;
+}
+footer .links ul li a{
+    padding: 5px 1px 3px 4px;
+}
+footer .info{
+    margin-right: 40px;
+    border-right: 1px solid #639ED3;
+}
+footer nav{
+    padding-top: 48px;
+}
+footer address, footer>div{
+    padding-top: 50px;
+    text-align: center;
+}
+
+
+
+@media screen and (max-width:900px){
+    header #banner{
+        margin-top: 40px;
+    }
+    #banner #banner_overlay{
+        padding-top: 5%;
+    }
+    main{
+        margin-top: -330px;
+    }
+    footer .info img{
+        width: 40%;
+        border: none;
+    }
+}

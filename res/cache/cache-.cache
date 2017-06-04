@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Awesome God!</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <h1>Olagoke Adedamola Farouq</h1>
+        <p>My new template powered page!</p>
+        <ul>
+            
+            <li>
+                <a href="abook.html" title="Awesome God!">An Amazing book written by me</a>
+                
+                <span title="My Biography, written to last and inspire">Biography</span><br/><span title="Just read the dinosaur story and enjoy">folktale</span><br/>
+                
+            </li><li>
+                <a href="dbook.html" title="Awesome God!">Opening the distant lost world of dinosaurs</a>
+                
+                <span title="My Biography, written to last and inspire">Biography</span><br/><span title="Just read the dinosaur story and enjoy">folktale</span><br/>
+                
+            </li>
+            
+        </ul>
+        <p><b>Admin details</b></p>
+        <ul>
+            
+            <li>
+                <a href="#" title="ayo">ayodele - 244d09089d6d4ec23f0fd6ff3c242eecfb47da53</a>
+            </li>
+            
+        </ul>
+    </body>
+</html>
+
+<!--Cached page-->

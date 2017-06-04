@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Awesome God!</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <h1>Olagoke Adedamola Farouq</h1>
+        <p>My new template powered page!</p>
+        <ul>
+            {{loop:books}}
+            <li>
+                <a href="{{link}}" title="Awesome God!">{{content}}</a>
+            </li>
+            {{/loop:books}}
+        </ul>
+    </body>
+</html>
+<div style='color:#9C2B0E;background-color:#FDECE8;padding:5px;' title='Dlyt PHP Framework Error Output'>DTemplate.php (171)  : <b>No matchable template block for {{loop:books}} was found</b></div>
+<!--Cached page-->

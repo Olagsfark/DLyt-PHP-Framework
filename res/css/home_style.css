@@ -1,0 +1,195 @@
+
+/* 
+    Created on : Dec 10, 2016, 7:43:40 AM
+    Author     : Olagoke Adedamola FArouq
+*/
+
+
+*{
+    font-family:segoe UI;
+}
+.anim{
+    -o-transition: .6s;
+    -webkit-transition: .6s;
+    -moz-transition: .6s;
+    transition: .6s;
+}
+body{ 
+    margin: 0 0 0 0; 
+    padding: 0 0 0 0;
+    background: #f8f8f8 url(../images/pattern.jpg) left top repeat fixed;
+    overflow-x: hidden;
+}
+header{
+    height: 460px;
+    margin-bottom: 5%;
+}
+.navbar-custom {
+    background-color: #272727;
+    box-shadow: 0px 2px 1px 1px #2E2E2E, 0px 2px 1px 1px #75A4CE;
+    padding: 1% 4% 0 4%;
+}
+.navbar-custom .icon-bar{
+    border: 2px solid #f1f1f1;
+}
+.navbar-custom .navbar-brand{
+    font-size: 22px;
+    font-weight: bold;
+}
+.navbar-custom .navbar-brand, .navbar-custom .navbar-nav a{
+    color: #f1f1f1;
+}
+.navbar-custom .navbar-brand:hover{
+    color: white;
+}
+.navbar-custom .navbar-nav a:hover{
+    background-color: rgba(255,255,255,0.1);
+    border-bottom: 3px solid #3C8DBC;
+}
+.navbar-custom .navbar-nav a.active{
+    border-bottom: 3px solid #3C8DBC;
+}
+.navbar-custom .navbar-nav .dropdown-menu a{
+    color: #444;
+}
+.navbar-custom .navbar-nav .dropdown-menu a:hover{
+    color: black;
+    border: none;
+}
+
+
+header #banner{
+    margin-top: 4.8%;
+    height: border-box;
+    background: black  url(../images/urban_night.jpeg) no-repeat fixed 0 -260px;
+}
+#banner #banner_overlay{
+    background-color: rgba(0,0,0,0.7);
+    height: 460px;
+    width:  border-box;
+}
+#banner_overlay #intro_text{
+    color: white;
+    padding: 4% 16% 2% 16%;
+    text-align: center;
+}
+#banner_overlay h1{
+    padding-bottom: 2px;
+    font-weight: bolder;
+    border-bottom: 1px solid #ccc;
+}
+#banner_overlay .center-row{
+    text-align: center;
+    padding-top: 3%;
+}
+#banner_overlay .center-row .btn{
+    border-radius: 2px;
+    margin: 0 3% 2% 0;
+    padding: 1% 2%;
+    font-size: 19px;
+}
+main{
+    margin-top: -13%;
+}
+.folds .fold{
+    padding: 2% 1% 1% 18%;
+}
+.folds .box-header{
+    color: #fff;
+}
+.folds .fold-services article{
+    margin-right: 20px;
+    background-color: white;
+    border-top: 2px solid #458DCB;
+    border-radius: 5px;
+    padding: 0;
+}
+
+.folds .fold-about{
+    padding: 2% 1% 1% 16%;
+    background-color: #272727;
+    color: #F0F0F0;
+}
+.folds .fold-about img{
+    margin-top: 32px;
+}
+.folds .fold-team{
+    padding: 2% 1% 1% 16%;
+    background-color: white;
+}
+.folds .fold-team .member{
+    text-align: center;
+}
+
+.folds .fold-team .member h4{
+    padding-bottom: 1%;
+    font-weight: bolder;
+    border-bottom: 2px solid #458DCB;
+}
+
+footer{
+    padding: 2% 1% 1% 5%;
+}
+footer a{
+    color: #f1f1f1;
+    font-size: 15px;
+    padding: 4px;
+}
+footer a:hover{
+    color: white;
+    text-decoration: none;
+}
+footer .links ul li a{
+    padding: 5px 1px 3px 4px;
+}
+footer .info{
+    margin-right: 40px;
+    border-right: 1px solid #639ED3;
+}
+footer nav{
+    padding-top: 48px;
+}
+footer address, footer>div{
+    padding-top: 50px;
+    text-align: center;
+}
+
+
+@media screen and (max-width:900px){
+    header #banner{
+        margin-top: 40px;
+    }
+    #banner_overlay .center-row{
+        text-align: center;
+        margin: 0;
+    }
+    #banner #banner_overlay{
+        padding-top: 5%;
+    }
+    main{
+        margin-top: -2%;
+    }
+    .folds .fold{
+        padding: 2% 16px 1% 16px;
+    }
+    .folds .fold-services .box-header{
+        font-size: 17px;
+        padding: 0 5px;
+    }
+    .folds .fold-about img{
+        margin-top: 1px;
+        width: 50%;
+    }
+    footer .info img{
+        width: 40%;
+        border: none;
+    }
+}
+
+@media screen and (max-width: 200px){
+    .folds .fold-services article{
+        width: 100%;
+    }
+}
+
+/*box-shadow: 0px 2px 1px 1px #75A4CE; //0px 2px 1px 1px #f1f2f6, */
