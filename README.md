@@ -6,9 +6,9 @@
 ### Framework Structure
   Not available yet
 ### Functions and Classes reference
-  Not available yet
+  Not available yet  
 ### Overview
-  Most of the documentation isn't ready yet(Please bare with me). 
+  Most of the documentation isn't ready yet(Please bare with me for now). 
   Work is seriously going on with the creation of documentations starting from the functions and class references. 
   If you check the codes, you'll discover the codes aren't well documented at all.
   
