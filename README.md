@@ -8,7 +8,7 @@
 ### Functions and Classes reference
   Not available yet  
 ### Overview
-  Most of the documentation isn't ready yet(Please bare with me for now). 
+  Most of the documentation isn't ready yet(Please bare with). 
   Work is seriously going on with the creation of documentations starting from the functions and class references. 
   If you check the codes, you'll discover the codes aren't well documented at all.
   
@@ -16,7 +16,7 @@
 
 **The framework in its current form is ready for experimental use.**
 - Clone the source tree on your local server
-- Run the index.php file
+- Run the index.php file in the root folder
   - You should have a template powered page starring at you right now.
 
 The app folder contains the model, view, and handler components which are divided into folders. The equivalent view, model, and handler scripts make up a complete app. E.g. For a homepage app, the app structure could be like:
