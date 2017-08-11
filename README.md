@@ -1,6 +1,8 @@
 # dlyt-PHP-Framework
 
-> Dlyt PHP framework is a MVC framework built from ground to top with simplicity, security, flexibility and speed in mind. The framework supports script template, plugins and a lots of back-end management features
+> Dlyt PHP framework is a MVC framework built from ground to top with simplicity, security, flexibility and speed in mind. The framework supports script template, plugins and a lots of back-end management features.
+
+> I've stopped working on this project s=for quite sometime now; a new and totally rebuilt framework is on the way
 
 ## Documentation
 ### Framework Structure
@@ -24,10 +26,10 @@ The app folder contains the model, view, and handler components which are divide
   - *model/home.model.php*
   - *view/home.view.php*
 
-The view component is the first component that will be accessed on app request. Hence the view component can standalone with only html data incases where you don't need any dynamic php content. 
+The view component is the first component that will be accessed on app request. Hence the view component can standalone with only html data in cases where you don't need any dynamic php content. 
 In cases where a web service is needed, you can simply create a handler and point to it in the settings.
 
-> More on this documentation will be written, Its still confusing to you for now.
+> More on this documentation will be written.
 
 
 ## Features
@@ -42,7 +44,7 @@ In cases where a web service is needed, you can simply create a handler and poin
 dlyt PHP framework is designed for those that need a very fast php framework that will manage their code in a way that it doesn't introduce them to new PHP syntax nor API nor code organizations that involve a steep learning curve.
 
 ### Security: Yea, Its really closed and secure.
-The framework is well defended against major web vulnerabilities like XSS, SQL injection, CSRF and many under the hood. The framework was designed with simplicity and extensibility in mind. With its plugin system, you can easily create features that would integrate tightly with the framework without causing a glitch in performance(Terms and conditions apply).
+The framework is well defended against major web vulnerabilities like XSS, SQL injection, CSRF and many under the hood. The framework was designed with simplicity and extensibility in mind. With its plugin system, you can easily create features that would integrate tightly with the framework without causing a glitch in performance(Terms and conditions apply). Please note though that work is still on with the framework.
 
 ## Partnership and collaboration
 This framework is a very promising one with amazing simplicity as compared to other major frameworks around. Collaborators and participant would be greatly appreciated as the framework is currently being built and maintained by only one person. 
